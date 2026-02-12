@@ -40,3 +40,5 @@ pipeline:
                     repo: sultana1/ci-nodejs-auth
                     tags:
                       - v1
+        delegateSelectors:
+          - docker-delegate0
