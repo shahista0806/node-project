@@ -40,3 +40,5 @@ pipeline:
                     repo: sultana1/node-app
                     tags:
                       - v1
+        delegateSelectors:
+          - docker-delegate
